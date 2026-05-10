@@ -44,6 +44,7 @@ export const EventSchema = z.object({
   title: z.string().min(1, 'title は必須です'),
   category: CategorySchema,
   description: z.string().optional(),
+  source: z.string().url('source は http(s) を含む URL で指定してください').optional(),
 });
 
 export const EventsSchema = z.object({

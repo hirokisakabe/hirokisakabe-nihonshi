@@ -156,3 +156,19 @@ input[type='range'] {
   color: var(--fg);
   opacity: 0.86;
 }
+
+.event-source {
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.event-source a {
+  color: var(--muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.event-source a:hover {
+  color: var(--fg);
+}

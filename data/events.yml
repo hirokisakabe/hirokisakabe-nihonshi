@@ -4,6 +4,7 @@ events:
     title: 大化の改新
     category: 政治
     description: 中大兄皇子と中臣鎌足が蘇我氏を滅ぼし、公地公民制への移行を進めた。
+    source: https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%8C%96%E3%81%AE%E6%94%B9%E6%96%B0
 
   - id: heian-relocation
     date: "0794"

@@ -91,6 +91,13 @@ function EventItem({ event: ev }: { event: Event }) {
         </div>
         <h2 className="event-title">{ev.title}</h2>
         {ev.description && <p className="event-description">{ev.description}</p>}
+        {ev.source && (
+          <p className="event-source">
+            <a href={ev.source} target="_blank" rel="noopener noreferrer">
+              出典
+            </a>
+          </p>
+        )}
       </div>
     </li>
   );
