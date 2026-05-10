@@ -131,3 +131,273 @@ events:
     title: 東日本大震災
     category: 災害
     description: マグニチュード 9.0 の地震と津波により甚大な被害が発生した。
+
+  - id: okehazama
+    date: "1560-06"
+    title: 桶狭間の戦い
+    category: 戦乱
+    description: 織田信長が大軍を率いて尾張に侵攻した今川義元を奇襲で討ち取り、戦国大名としての地位を確立した。
+
+  - id: yoshiaki-ichijodani
+    date: "1568"
+    title: 足利義昭、一乗谷で元服
+    category: 政治
+    description: 朝倉義景が将軍候補の足利義昭を一乗谷に庇護し、加冠役として元服の儀を執り行った。
+
+  - id: nobunaga-kyoto
+    date: "1568"
+    title: 信長上洛・足利義昭擁立
+    category: 政治
+    description: 織田信長が足利義昭を奉じて入京し、義昭を室町幕府 15 代将軍に就かせた。
+
+  - id: kanagasaki-retreat
+    date: "1570"
+    title: 金ヶ崎の退き口
+    category: 戦乱
+    description: 越前朝倉攻めの最中、義弟である浅井長政の離反により信長は撤退を余儀なくされた。木下秀吉らが殿軍を務めた。
+
+  - id: anegawa
+    date: "1570-07-30"
+    title: 姉川の戦い
+    category: 戦乱
+    description: 織田・徳川連合軍が浅井長政・朝倉景健の連合軍を北近江姉川で破った。
+
+  - id: mori-motonari-death
+    date: "1571"
+    title: 毛利元就死去
+    category: 政治
+    description: 安芸の小領主から中国地方の覇者にまで毛利氏を押し上げた元就が郡山城で没した。家督は孫の輝元が継承した。
+
+  - id: enryakuji-burning
+    date: "1571"
+    title: 比叡山焼き討ち
+    category: 戦乱
+    description: 朝倉・浅井方を匿ったとして信長が比叡山延暦寺を焼き払い、堂塔伽藍と僧俗多数が失われた。
+
+  - id: sakamoto-castle
+    date: "1571"
+    title: 坂本城築城開始
+    category: 文化
+    description: 比叡山焼き討ちの戦功で近江志賀郡を与えられた明智光秀が、琵琶湖畔に水城坂本城の築城に着手した。
+
+  - id: muromachi-end
+    date: "1573"
+    title: 室町幕府滅亡
+    category: 政治
+    description: 信長が将軍足利義昭を京都から追放し、約 240 年続いた室町幕府が事実上の終焉を迎えた。
+
+  - id: ichijodani
+    date: "1573"
+    title: 一乗谷の戦い・朝倉義景滅亡
+    category: 戦乱
+    description: 信長が越前へ侵攻し、朝倉義景は本拠一乗谷を放棄して逃亡したのち賢松寺で自害。戦国大名としての朝倉氏は滅亡した。
+
+  - id: odani-fall
+    date: "1573"
+    title: 小谷城落城・浅井長政滅亡
+    category: 戦乱
+    description: 朝倉氏滅亡の直後、信長は北近江の浅井長政を攻め、長政は小谷城で自害した。
+
+  - id: nagashino
+    date: "1575-06-29"
+    title: 長篠の戦い
+    category: 戦乱
+    description: 織田・徳川連合軍が三段撃ちで知られる鉄砲戦法で武田勝頼軍を撃破した。
+
+  - id: shibata-echizen
+    date: "1575"
+    title: 柴田勝家、越前国主に
+    category: 政治
+    description: 越前一向一揆鎮圧の功により、柴田勝家が信長から越前一国を与えられ北ノ庄城を本拠とした。北陸方面軍の司令官となった。
+
+  - id: tedorigawa
+    date: "1577"
+    title: 手取川の戦い
+    category: 戦乱
+    description: 加賀に侵攻した柴田勝家率いる織田北陸方面軍が、上杉謙信の軍勢に大敗した。
+
+  - id: mitsuhide-tanba
+    date: "1579"
+    title: 明智光秀、丹波平定
+    category: 戦乱
+    description: 八上城の波多野秀治を降伏させるなど数年がかりの攻略を経て、明智光秀が丹波・丹後を平定した。
+
+  - id: ishiyama-fall
+    date: "1580"
+    title: 石山本願寺退去
+    category: 戦乱
+    description: 11 年に及んだ石山合戦の末、本願寺顕如が大坂石山を退去して織田氏との和睦が成立した。
+
+  - id: takeda-fall
+    date: "1582"
+    title: 天目山の戦い・武田氏滅亡
+    category: 戦乱
+    description: 織田・徳川連合軍に追い詰められた武田勝頼が天目山で自害し、甲斐源氏の名門武田氏が滅亡した。
+
+  - id: takamatsu-water-attack
+    date: "1582"
+    title: 備中高松城水攻め
+    category: 戦乱
+    description: 中国攻めの羽柴秀吉が備中高松城を堤防で囲い水没させた。本能寺の変直後に毛利氏と和睦し、中国大返しへ繋がった。
+
+  - id: honnoji
+    date: "1582-06-21"
+    title: 本能寺の変
+    category: 戦乱
+    description: 中国攻め援軍に向かう途上の明智光秀が京都本能寺の織田信長を急襲し、信長を自害に追い込んだ。
+
+  - id: yamazaki
+    date: "1582-07-02"
+    title: 山崎の戦い
+    category: 戦乱
+    description: 中国大返しで取って返した羽柴秀吉が山城山崎で明智光秀を撃破。光秀は敗走中に小栗栖で討たれ、十三日天下と称された。
+
+  - id: kiyosu-conference
+    date: "1582"
+    title: 清洲会議
+    category: 政治
+    description: 信長の後継と遺領分配を決めた重臣会議。秀吉が信忠の遺児三法師を擁立し、柴田勝家との対立が決定的になった。
+
+  - id: shizugatake
+    date: "1583-06-11"
+    title: 賤ヶ岳の戦い
+    category: 戦乱
+    description: 近江賤ヶ岳付近で羽柴秀吉が柴田勝家を破り、織田家中の主導権を掌握した。賤ヶ岳の七本槍の活躍で知られる。
+
+  - id: kitanosho-fall
+    date: "1583-06-14"
+    title: 北ノ庄城落城・柴田勝家自害
+    category: 戦乱
+    description: 賤ヶ岳の敗戦から越前に撤退した柴田勝家は、北ノ庄城に妻お市の方とともに籠もり、城に火を放って自害した。
+
+  - id: osaka-castle
+    date: "1583"
+    title: 大坂城築城開始
+    category: 文化
+    description: 石山本願寺跡地に羽柴秀吉が大坂城の築城を開始し、新たな政権の本拠と定めた。
+
+  - id: komaki-nagakute
+    date: "1584"
+    title: 小牧・長久手の戦い
+    category: 戦乱
+    description: 織田信雄を擁する徳川家康と羽柴秀吉が尾張・三河方面で対峙。戦闘では徳川方が優勢だったが、最終的に秀吉と和睦した。
+
+  - id: suemori
+    date: "1584"
+    title: 末森城の戦い
+    category: 戦乱
+    description: 越中の佐々成政が能登末森城を急襲したが、加賀の前田利家が後詰に駆けつけて撃退。北陸の主導権が前田に傾いた。
+
+  - id: sarasara-goe
+    date: "1584"
+    title: 佐々成政のさらさら越え
+    category: 戦乱
+    description: 反秀吉包囲網の再構築を期した佐々成政が、厳冬の北アルプス立山連峰を越えて浜松の徳川家康に再戦を説いた。
+
+  - id: shikoku-pacification
+    date: "1585"
+    title: 四国平定
+    category: 戦乱
+    description: 羽柴秀吉が弟秀長らを派遣し、長宗我部元親を降伏させて四国を平定した。
+
+  - id: kanpaku
+    date: "1585"
+    title: 秀吉関白就任
+    category: 政治
+    description: 近衛家の猶子となった羽柴秀吉が朝廷から関白に任じられ、武家として初めて関白の職に就いた。
+
+  - id: toyama-attack
+    date: "1585"
+    title: 富山の役
+    category: 戦乱
+    description: 羽柴秀吉が 10 万の大軍で越中佐々成政を攻めた。成政は剃髪して降伏し、新川郡一郡を残してほぼ全所領を没収された。
+
+  - id: kanamori-hida
+    date: "1585"
+    title: 金森長近、飛騨平定
+    category: 戦乱
+    description: 富山の役と並行して、金森長近が飛騨の三木 (姉小路) 頼綱を破り飛騨国を平定。秀吉から飛騨一国を与えられた。
+
+  - id: toyotomi-name
+    date: "1586"
+    title: 豊臣姓下賜・太政大臣就任
+    category: 政治
+    description: 羽柴秀吉が朝廷から「豊臣」の姓を賜り太政大臣に任じられた。
+
+  - id: kyushu-pacification
+    date: "1587"
+    title: 九州平定
+    category: 戦乱
+    description: 島津氏討伐のため秀吉自ら大軍を率いて九州に出陣し、島津義久を降伏させた。毛利・小早川勢も主力として従軍した。
+
+  - id: higo-ikki
+    date: "1587"
+    title: 肥後国人一揆
+    category: 戦乱
+    description: 九州平定後、肥後一国を与えられた佐々成政の急速な検地が反発を招き、国人衆が大規模な一揆を起こした。
+
+  - id: bateren-edict
+    date: "1587-07-24"
+    title: バテレン追放令
+    category: 外交
+    description: 九州平定の最中、秀吉が筑前博多でキリスト教宣教師の国外追放を命じる伴天連追放令を発布した。
+
+  - id: sasa-seppuku
+    date: "1588"
+    title: 佐々成政切腹
+    category: 政治
+    description: 肥後国人一揆の責任を問われた佐々成政が、摂津尼崎の法園寺で切腹を命じられ生涯を閉じた。
+
+  - id: katanagari
+    date: "1588"
+    title: 刀狩令
+    category: 政治
+    description: 秀吉が農民から武器を没収する刀狩令を発布。兵農分離が制度的に進んだ。
+
+  - id: takayama-castle
+    date: "1588"
+    title: 高山城築城開始
+    category: 文化
+    description: 飛騨を与えられた金森長近が高山城および城下町の整備に着手した。城下は近世高山の原型となる。
+
+  - id: hiroshima-castle
+    date: "1589"
+    title: 広島城築城開始
+    category: 文化
+    description: 太閤検地を経て、毛利輝元が太田川河口の三角州に広島城の築城を開始し、安芸吉田郡山城から本拠を移した。
+
+  - id: odawara
+    date: "1590"
+    title: 小田原征伐
+    category: 戦乱
+    description: 秀吉が後北条氏の本拠小田原城を約 20 万の大軍で包囲。籠城 3 か月を経て北条氏政・氏直が降伏した。
+
+  - id: tenkatouitsu
+    date: "1590"
+    title: 奥州仕置・天下統一
+    category: 政治
+    description: 小田原開城後、秀吉が会津で奥羽の大名の領地を裁定し、応仁の乱以来続いた戦国の世を終結させた。
+
+  - id: rikyu-seppuku
+    date: "1591-04-21"
+    title: 千利休切腹
+    category: 文化
+    description: 秀吉の不興を買った茶聖・千利休が京都聚楽屋敷で切腹を命じられた。わび茶の体系は弟子達に継承された。
+
+  - id: bunroku-no-eki
+    date: "1592"
+    title: 文禄の役
+    category: 戦乱
+    description: 秀吉が明征服を掲げて朝鮮半島に出兵。緒戦は優勢だったが、明軍参戦と李舜臣の水軍活躍で戦局は膠着した。
+
+  - id: keicho-no-eki
+    date: "1597"
+    title: 慶長の役
+    category: 戦乱
+    description: 文禄の役の和議決裂を受け、秀吉が再び朝鮮へ出兵。秀吉死去にともなう撤退まで戦闘が続いた。
+
+  - id: hideyoshi-death
+    date: "1598-09-18"
+    title: 豊臣秀吉死去
+    category: 政治
+    description: 京都伏見城で豊臣秀吉が没した。五大老五奉行体制で遺児秀頼の補佐が委ねられたが、徳川家康台頭の伏線となった。
