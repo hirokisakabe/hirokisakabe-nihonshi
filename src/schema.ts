@@ -6,9 +6,35 @@ export const CategorySchema = z.enum(Categories);
 
 const datePattern = /^(-?\d{1,4})(?:-(\d{2}))?(?:-(\d{2}))?$/;
 
+const daysInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
 export const DateSchema = z
   .string()
-  .regex(datePattern, '日付は YYYY / YYYY-MM / YYYY-MM-DD 形式で記述してください');
+  .regex(datePattern, '日付は YYYY / YYYY-MM / YYYY-MM-DD 形式で記述してください')
+  .superRefine((value, ctx) => {
+    const m = datePattern.exec(value);
+    if (!m) return;
+    if (m[2] !== undefined) {
+      const month = parseInt(m[2], 10);
+      if (month < 1 || month > 12) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          message: `月は 01〜12 で指定してください (${m[2]} は範囲外)`,
+        });
+        return;
+      }
+      if (m[3] !== undefined) {
+        const day = parseInt(m[3], 10);
+        const max = daysInMonth[month - 1];
+        if (day < 1 || day > max) {
+          ctx.addIssue({
+            code: z.ZodIssueCode.custom,
+            message: `${month} 月の日は 01〜${String(max).padStart(2, '0')} で指定してください (${m[3]} は範囲外)`,
+          });
+        }
+      }
+    }
+  });
 
 export const ImportanceSchema = z
   .number()
