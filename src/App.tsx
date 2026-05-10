@@ -17,15 +17,10 @@ export default function App() {
   const [activeCategories, setActiveCategories] = useState<Set<Category>>(
     () => new Set(Categories),
   );
-  const [minImportance, setMinImportance] = useState(1);
 
   const filtered = useMemo(
-    () =>
-      sorted.filter(
-        (ev) =>
-          activeCategories.has(ev.category) && ev.importance >= minImportance,
-      ),
-    [sorted, activeCategories, minImportance],
+    () => sorted.filter((ev) => activeCategories.has(ev.category)),
+    [sorted, activeCategories],
   );
 
   function toggleCategory(c: Category) {
@@ -69,20 +64,6 @@ export default function App() {
             );
           })}
         </div>
-        <div className="filter-row">
-          <label className="filter-label" htmlFor="importance-range">
-            重要度 {minImportance} 以上
-          </label>
-          <input
-            id="importance-range"
-            type="range"
-            min={1}
-            max={5}
-            step={1}
-            value={minImportance}
-            onChange={(e) => setMinImportance(Number(e.target.value))}
-          />
-        </div>
       </section>
 
       <ol className="timeline">
@@ -96,7 +77,7 @@ export default function App() {
 
 function EventItem({ event: ev }: { event: Event }) {
   return (
-    <li className="event" data-importance={ev.importance}>
+    <li className="event">
       <div className="event-marker" style={{ backgroundColor: categoryColors[ev.category] }} />
       <div className="event-date">{formatDate(ev.date)}</div>
       <div className="event-body">
@@ -106,10 +87,6 @@ function EventItem({ event: ev }: { event: Event }) {
             style={{ backgroundColor: categoryColors[ev.category] }}
           >
             {ev.category}
-          </span>
-          <span className="event-importance" aria-label={`重要度 ${ev.importance}`} title={`重要度 ${ev.importance}`}>
-            {'★'.repeat(ev.importance)}
-            <span className="event-importance-empty">{'★'.repeat(5 - ev.importance)}</span>
           </span>
         </div>
         <h2 className="event-title">{ev.title}</h2>

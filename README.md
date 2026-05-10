@@ -34,7 +34,6 @@ events:
     date: "0645"             # YYYY / YYYY-MM / YYYY-MM-DD のいずれか (文字列で記述)
     title: 大化の改新        # タイトル
     category: 政治           # 政治 / 文化 / 経済 / 戦乱 / 外交 / 災害
-    importance: 5            # 1〜5 の整数 (大きいほど重要)
     description: ...         # 説明 (任意)
 ```
 

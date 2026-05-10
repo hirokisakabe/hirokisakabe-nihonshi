@@ -36,12 +36,6 @@ export const DateSchema = z
     }
   });
 
-export const ImportanceSchema = z
-  .number()
-  .int('重要度は整数で指定してください')
-  .min(1, '重要度は 1 以上で指定してください')
-  .max(5, '重要度は 5 以下で指定してください');
-
 export const EventSchema = z.object({
   id: z
     .string()
@@ -49,7 +43,6 @@ export const EventSchema = z.object({
   date: DateSchema,
   title: z.string().min(1, 'title は必須です'),
   category: CategorySchema,
-  importance: ImportanceSchema,
   description: z.string().optional(),
 });
 
