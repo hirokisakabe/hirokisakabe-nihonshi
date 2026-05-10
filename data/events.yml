@@ -3,152 +3,130 @@ events:
     date: "0645"
     title: 大化の改新
     category: 政治
-    importance: 5
     description: 中大兄皇子と中臣鎌足が蘇我氏を滅ぼし、公地公民制への移行を進めた。
 
   - id: heian-relocation
     date: "0794"
     title: 平安京遷都
     category: 政治
-    importance: 5
     description: 桓武天皇が長岡京から平安京（現在の京都）に都を遷した。
 
   - id: tale-of-genji
     date: "1008"
     title: 源氏物語成立
     category: 文化
-    importance: 4
     description: 紫式部が著した、世界最古級の長編小説。
 
   - id: kamakura-shogunate
     date: "1192"
     title: 鎌倉幕府成立
     category: 政治
-    importance: 5
     description: 源頼朝が征夷大将軍となり、武家政権が確立した。
 
   - id: mongol-invasion-bunei
     date: "1274"
     title: 文永の役
     category: 戦乱
-    importance: 4
     description: 元・高麗連合軍による一度目の日本侵攻。鎌倉幕府軍が撃退した。
 
   - id: muromachi-shogunate
     date: "1338"
     title: 室町幕府成立
     category: 政治
-    importance: 4
     description: 足利尊氏が征夷大将軍に任命され、京都に幕府を開いた。
 
   - id: onin-war
     date: "1467"
     title: 応仁の乱勃発
     category: 戦乱
-    importance: 5
     description: 京都を主戦場とした内乱で、戦国時代の幕開けとなった。
 
   - id: azuchi-castle
     date: "1576"
     title: 安土城築城開始
     category: 文化
-    importance: 3
     description: 織田信長が琵琶湖畔に天守を備えた本格的な近世城郭を築いた。
 
   - id: edo-shogunate
     date: "1603"
     title: 江戸幕府成立
     category: 政治
-    importance: 5
     description: 徳川家康が征夷大将軍に任命され、江戸に幕府を開いた。
 
   - id: great-meireki-fire
     date: "1657-03-02"
     title: 明暦の大火
     category: 災害
-    importance: 4
     description: 江戸の大半を焼失させた大火災。死者は十万人を超えたとされる。
 
   - id: sakoku-completion
     date: "1639"
     title: ポルトガル船来航禁止(鎖国体制完成)
     category: 外交
-    importance: 4
     description: 江戸幕府がポルトガル船の来航を禁止し、いわゆる鎖国体制が完成した。
 
   - id: genroku-culture
     date: "1700"
     title: 元禄文化の隆盛
     category: 文化
-    importance: 3
     description: 上方を中心に町人文化が花開き、近松門左衛門・井原西鶴らが活躍した。
 
   - id: kyoho-reforms
     date: "1716"
     title: 享保の改革
     category: 経済
-    importance: 3
     description: 徳川吉宗が幕府財政の再建を目指し、年貢制度の見直しなどを進めた。
 
   - id: perry-arrival
     date: "1853-07-08"
     title: ペリー来航
     category: 外交
-    importance: 5
     description: 米国東インド艦隊司令官ペリーが浦賀に来航し、開国を要求した。
 
   - id: meiji-restoration
     date: "1868"
     title: 明治維新
     category: 政治
-    importance: 5
     description: 王政復古の大号令により幕府が倒れ、明治新政府が誕生した。
 
   - id: russo-japanese-war
     date: "1904-02"
     title: 日露戦争開戦
     category: 戦乱
-    importance: 4
     description: 満州・朝鮮半島の権益を巡り、日本とロシア帝国が開戦した。
 
   - id: great-kanto-earthquake
     date: "1923-09-01"
     title: 関東大震災
     category: 災害
-    importance: 5
     description: マグニチュード 7.9 級の地震が関東地方を襲い、十万人以上が犠牲となった。
 
   - id: pacific-war-end
     date: "1945-08-15"
     title: 太平洋戦争終結
     category: 戦乱
-    importance: 5
     description: 玉音放送によりポツダム宣言の受諾が国民に告げられ、第二次世界大戦が終結した。
 
   - id: san-francisco-treaty
     date: "1951-09-08"
     title: サンフランシスコ平和条約調印
     category: 外交
-    importance: 4
     description: 連合国 48 か国と平和条約に調印。翌 1952 年 4 月 28 日の発効をもって日本は主権を回復した。
 
   - id: tokyo-olympics-1964
     date: "1964-10-10"
     title: 東京オリンピック開幕
     category: 文化
-    importance: 4
     description: アジア初の夏季オリンピックとして開催され、戦後復興の象徴となった。
 
   - id: bubble-economy-burst
     date: "1991"
     title: バブル経済崩壊
     category: 経済
-    importance: 4
     description: 株価・地価の急落により景気後退が始まり、長期の停滞期に入った。
 
   - id: great-east-japan-earthquake
     date: "2011-03-11"
     title: 東日本大震災
     category: 災害
-    importance: 5
     description: マグニチュード 9.0 の地震と津波により甚大な被害が発生した。
