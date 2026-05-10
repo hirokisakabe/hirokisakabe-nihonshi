@@ -21,7 +21,7 @@
 | `npm run dev`       | Vite dev server を起動して年表を表示                                 |
 | `npm run validate`  | `data/events.yml` を zod スキーマで検証 (不正データがあれば exit 1) |
 | `npm run lint`      | ESLint で TypeScript / React コードを検査                            |
-| `npm run build`     | `tsc --noEmit` の型チェックと Vite のプロダクションビルドを実行     |
+| `npm run build`     | `validate` (zod 検証) → `tsc --noEmit` の型チェック → Vite のプロダクションビルドを順に実行 |
 | `npm run preview`   | `dist/` の中身をローカルで確認                                       |
 
 ## イベントのフィールド
